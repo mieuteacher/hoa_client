@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  box-sizing: border-box
+}
+
+@import "@scss";
+
+.root_page {
+  width: 100%;
+  font-size: $fs_medium;
+  .before_nav {
+    background-color: $cl_body_main;
+    display: flex;
+    justify-content: center;
+    height: $beforeNavH;
+    font-size: 1em;
+    position: sticky;
+    top: 0;
+    z-index: $zi_max;
+    .before_nav_content {
+      width: $maxW;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 1em;
+      .brand_name {
+        text-transform: uppercase;
+        font-size: 1em;
+        font-family: $f_brand;
+      }
+      .feature {
+        display: flex;
+        width: 30%;
+        justify-content: space-between;
+        font-size: 1em;
+        .feature_item {
+          font-size: 0.65em;
+          border-right: 2px solid black;
+          width: 100%;
+          max-width: 120px;
+          margin-right: 10px;
+          text-align: center;
+          cursor: pointer;
+          &:hover {
+            transform: scale(1.1);
+          }
+          &:last-child {
+            border: unset;
+            text-align: right;
+            max-width: 70px;
+          }
+        }
+      }
+    }
+  }
+  nav {
+    width: 100%;
+    height: $navH;
+    font-size: 1em;
+    background-color: $cl_nav_main;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+     top: $beforeNavH;
+    z-index: $zi_max;
+    .nav_content {
+      width: 100%;
+      max-width: $maxW;
+      height: 100%;
+      font-size: 1em;
+      display: flex;
+      justify-content: space-between;
+      .left_content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 1em;
+        height: 100%;
+        width: 10%;
+        .logo {
+          width: 83px;
+          height: 100%;
+        }
+      }
+      .middle_content {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1em;
+        .item {
+          font-size: 0.8em;
+          font-weight: 900;
+          cursor: pointer;
+          margin-right: 20px;
+          &:last-child {
+            margin: unset;
+          }
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+      }
+      .right_content {
+        width: 23%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+  }
+  .body_container {
+    width: 100%;
+   min-height: 100vh;
+    background-color: $cl_body_main;
+    display: flex;
+    justify-content: center;
+    .body_container_center {
+      width: $maxW;
+      height: 100%;
+    }
+  }
+}

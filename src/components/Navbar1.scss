@@ -1,0 +1,89 @@
+.logo-home{
+    width: 40px !important;
+
+}
+.row{
+    display: flex !important;
+    justify-content: space-around;
+    align-items: center;
+    color: hsl(35, 53%, 56%) !important;
+    background-color: hsl(0, 0%, 0%) !important;
+
+}
+.search-bar{
+    display: flex;
+}
+.minicart{
+    padding-left: 20px !important;
+}
+.form-control{
+    background-color: hsl(0, 0%, 100%) !important;
+    border-radius: 0% !important;
+    height: 40px !important;
+    border:none !important
+}
+.btn{
+    border-radius: 0% !important;
+    background-color: hsl(0, 0%, 100%) !important;
+    height: 40px !important;
+    border: none !important;
+}
+.fa-regular {
+    color:white !important;
+}
+.logo-home{
+    letter-spacing: 3px !important;
+    margin-top: 30px !important;
+
+}
+.home{
+    margin: 0 200px !important;
+    // margin-top: 10px !important;
+    margin-left: 360px !important;
+}
+.p{
+    font-family: Florence, cursive;
+    margin-left: 25px !important;
+    margin-bottom: 0px !important;
+}
+.menu-group{
+    color: white !important;
+    background-color: hsl(0, 0%, 0%) !important;
+    text-transform: uppercase !important;
+    text-align: center !important;
+    padding-left: 100px !important;
+    margin-top: 10px !important;
+}
+.main-menu{
+    background-color: hsl(0, 0%, 0%) !important;
+    text-align: center !important;
+    margin-top: 0px !important;
+}
+.navbar{
+    background-color: hsl(0, 0%, 0%) !important;
+    font-size: 14px !important;
+}
+
+.btl1:focus {
+    outline: none; 
+   
+}
+.btl1{
+    color: hsl(35, 53%, 56%) !important;
+    background-color: hsl(0, 0%, 0%) !important;
+}
+.btl:focus {
+    outline: none; 
+    color: hsl(35, 53%, 56%) !important;
+    background-color: hsl(0, 0%, 0%) !important;
+}
+
+    .btl {
+       
+        color: hsl(35, 53%, 56%) !important;
+        background-color: hsl(0, 0%, 0%) !important;
+    }
+    .fa-regular{
+        margin-right: 15px !important;
+    }
+

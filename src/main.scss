@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  box-sizing: border-box
+}
+img {
+  padding: 30px;
+  transform: scale(1);
+  transition: all 0.5s;
+  }
+  img:hover {
+  transform: scale(1.1);
+  }
+  .btgr{
+    background-color: hsl(230, 96%, 51%);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+ 
+    .p_price{
+      margin-left: 100px !important;
+    }
+    .container_bill{
+      background-color:white !important;
+      margin: 40px 40px;
+
+    }
+    // .card_hover {
+    //   padding: 30px;
+    //   transform: scale(1);
+    //   transition: all 0.5s;
+    //   }
+    //   img:hover {
+    //   transform: scale(1.0);
+    //   }
